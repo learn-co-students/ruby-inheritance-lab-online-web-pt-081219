@@ -18,3 +18,15 @@ some_knowledge = avi.teach
 steve.learn(some_knowledge)
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
+
+jamal = Student.new 
+jamal.first_name = "Jamal" 
+jamal.last_name = "Parker" 
+
+i = 0
+while i < 4 do
+  jamal.learn(avi.teach)
+  i +=1
+end 
+
+puts jamal.knowledge
